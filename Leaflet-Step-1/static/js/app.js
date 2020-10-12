@@ -23,6 +23,7 @@ function createFeatures(featuresData) {
     // Give each feature a popup describing the place and time of the earthquake
     function onEachFeature(feature, layer) {
         layer.bindPopup(`<h3> ${feature.properties.place} </h3> <hr> 
+                        <h4> Time:  ${new Date(feature.properties.time)} </h4>
                         <h4>  Magnitude:   ${feature.properties.mag}
                         </h4> <h4>  Depth:   ${feature.geometry.coordinates[2]} </h4>`);
     }
