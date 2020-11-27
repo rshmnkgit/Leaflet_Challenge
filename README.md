@@ -1,5 +1,7 @@
 # Leaflet_Challenge
 
+The USGS isresponsible for providing scientific data about natural hazards, the health of ourecosystems and environment; and the impacts of climate and land-use change. Theirscientists develop new methods and tools to supply timely, relevant, and usefulinformation about the Earth and its processes.
+
 To run the program:
  - Download the files to the local folder.
  - Provide the Mapbox API KEY in the config file.
