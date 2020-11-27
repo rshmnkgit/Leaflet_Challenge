@@ -27,14 +27,12 @@ Data on tectonic plates from the page https://github.com/fraxen/tectonicplates
 - Download the files to the local folder.
 - Provide the Mapbox API KEY in the config file.
 
-Sequence
+#### Sequence
 1.  Open the index file in Leaflet Step 1 with the live server
 
 2.  Leaflet Step 2
     
 - Open the index file with live server to display the multilayer map which plots the earthqauke information and the tectonic plates.
-
 - Open the index file with cluster.js plugged in. This displayes the earthquake locations as clustered markers.
-
 - Open the index file with heatmap.js plugged in. This displayes the earthquake location and intensity heatmap.
 
